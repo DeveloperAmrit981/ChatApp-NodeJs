@@ -1,0 +1,21 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "This is a realtime chat app designed using the node js ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Amrit Pandit",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
+    "socket.io": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
